@@ -1,0 +1,44 @@
+.programms__title{
+    font-size: 46px;
+    font-weight: bold;
+    color: #000;
+    padding: 100px 0 15px 0;
+    margin: 0;
+}
+
+.programms__subtitle{
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+    margin-bottom: 50px;
+}
+
+.programms__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programms__item{
+    width: 30%;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0px 0 39px 39px;
+}
+
+.programms__item:hover{
+    border: 1px solid #000;
+}
+
+.programms__img{
+    width: 150px;
+    height: 150px;
+}
+
+.programms__item--content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
