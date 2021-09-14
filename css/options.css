@@ -29,12 +29,17 @@
     margin: 0px 20px;
 }
 
+
 .options__item:first-child{
     margin-left: 0;
 }
 
 .options__img{
    opacity: 0.5;
+}
+
+.options__img:hover{
+    opacity: 1;
 }
 
 .options__desc{
@@ -48,8 +53,10 @@
     font-weight: bold;
     color: #fff;
     margin: 0;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .options__desc--subtitle{
     color: #fff;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }

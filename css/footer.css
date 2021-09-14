@@ -12,10 +12,16 @@
 }
 
 .footer__item{
+    opacity: 0.6;
     width: 25%;
     color: #fff;
     padding: 25px 0;
 }
+
+.footer__item:hover{
+    opacity: 1;
+}
+
 .footer__number{
     font-size: 18px;
     font-weight: bold;
