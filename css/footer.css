@@ -25,6 +25,7 @@
 .footer__number{
     font-size: 18px;
     font-weight: bold;
+    padding: 15px 0;
 }
 
 .footer__number--desc{
@@ -37,9 +38,6 @@
     padding: 15px 0;
 }
 
-.footer__list:first-child{
-    padding: 0;
-}
 
 .footer__end--text{
     padding-top: 15px;

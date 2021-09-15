@@ -31,3 +31,44 @@
     font-size: 22px;
     font-weight: bold;
 }
+
+.socials__icon{
+    display: flex;
+}
+
+.socials__link{
+    display: block;
+    width: 32px;
+    height: 45px;
+    margin:15px 0 0 15px;
+  }
+
+.socials__item-icon-ins .socials__link{
+      background: url(../img/socials/ins.png) no-repeat;
+  }
+
+  .socials__item-icon-ins .socials__link:hover{
+    background: url(../img/socials/ins-hover.png) no-repeat;
+}
+
+.socials__item-icon-vk .socials__link{
+      background: url(../img/socials/vk.png) no-repeat;
+  }
+  .socials__item-icon-vk .socials__link:hover{
+    background: url(../img/socials/vk-hover.png) no-repeat;
+}
+
+  .socials__item-icon-face .socials__link{
+    background: url(../img/socials/facebook.png) no-repeat;
+}
+.socials__item-icon-face .socials__link:hover{
+    background: url(../img/socials/facebook-hover.png) no-repeat;
+}
+
+.socials__item-icon-yt .socials__link{
+   background: url(../img/socials/youtube-hover.png) center no-repeat;
+}
+
+.socials__item-icon-yt .socials__link:hover{
+    background: url(../img/socials/youtube.png) no-repeat;
+ }
