@@ -6,10 +6,12 @@
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
+    border: 0.5px solid transparent;
 }
 
 .button:hover{
     background-color: #fff;
     border: 0.5px solid #000081;
     color: #000081be;
+    opacity: 0.8;
 }

@@ -1,6 +1,5 @@
 .contacts{
     background-color: #00008113;
-    height: 450px;
 }
 
 .contacts__inner{
@@ -72,3 +71,29 @@
 .socials__item-icon-yt .socials__link:hover{
     background: url(../img/socials/youtube.png) no-repeat;
  }
+
+
+.contacts__form{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+
+
+.contacts__field{
+    padding: 16px 41px;
+    padding-right: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.contacts__text{
+    padding-top: 5px;
+}
+
+.contacts__button{
+    padding-left: 5px;
+    padding-top: 17px;
+}
