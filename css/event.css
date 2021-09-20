@@ -1,117 +1,121 @@
+.event{
+    padding: 50px 0 0 0;
+}
 
-.event__title{
+
+.event__text{
     font-size: 46px;
     font-weight: bold;
     color: #000;
-    padding: 100px 0 50px 0;
+    padding: 40px 0 40px 0;
     margin: 0;
+}
+
+.event__inner{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.event__about{
+    width: 70%;
+    background-color: #000;
+    height: 452px;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.event__img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate3d(-50%, -50%, 0);
+    opacity: 0.9;
 }
 
 .event__content{
-    display: flex;
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    z-index: 2;
+    width: 35%;
+    height: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
 }
 
-.event__preview{
-    width: 70%;
-    height: 500px;
-    background: url(../img/students-1.jpg) center no-repeat;
-    background-size: cover;
+
+.event__items{
+    width: 30%;
+    height: 450px;
+}
+
+
+.event__subitems{
+    position: relative;
+    height: 48%;
+    background-color: black;
+    margin-top: 20px;
     overflow: hidden;
 }
 
-.event__calendar{
-    width: 30%;
-    padding-left: 25px;
+.event__subitems:first-child{
+    margin: 0;
+}
+
+.event__items--content{
+    position: absolute;
+    z-index: 2;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.calendar{
-    width: 300px;
-    height: 400px;
-    box-shadow: 0px 0px 15px #000081be;
-}
-
-.month, p{
-    font-size: 16px;
-    margin: 0;
-}
-
-.month i{
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.month h1{
-    margin: 0;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.month{
-    width: 100%;
-    height: 80px;
-    background-color: #000081be;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 69%);
+    top: 50px;
+    left: 25px;
+    height: 100%;
+    width: 85%;
     text-align: center;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
-.weekdays{
-    width: 100%;
-    height: 40px;
-    padding: 0 8px;
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.weekdays div{
-    width: calc(300px/7);
-    color: rgba(255, 0, 0, 0.411);
+.event__button{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-shadow: rgba(0, 0, 0, 0.774) 1px 0 15px;
+    padding-top: 15px;
 }
 
-.days{
-    width: 100%;
+
+.news__inner{
     display: flex;
-    flex-wrap: wrap;
-    padding: 8px;
 }
 
-.days div{
-    font-size: 14px;
-    margin: 2px;
-    width: calc(300px/7);
-    height: 35px;
+
+.news__item{
+    margin-top: 15px;
+    height: 250px;
+    width: 25%;
+    border-right: 1px solid black;
+}
+
+.news__content{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    text-shadow: rgba(0, 0, 0, 0.774) 1px 0 15px;
-    color: black;
-    transition: background-color 0.2s;
+    border-bottom: 1px solid #000;
+    width: 80%;
+    padding-left: 15px;
 }
 
-.days div:hover:not(.today){
-    background-color: #00008133;
-    border: 1px solid #000081be;
-    cursor: pointer;
+.news__about{
+    padding-top: 25px;
 }
 
-.prev-date, .next-date{
-    opacity: 0.5;
+.news__link{
+    padding-left: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000081be;
 }
 
-.today{
-    background-color: #000081be;
+.news__link:hover{
+    color: #444;
 }
